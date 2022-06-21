@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  display: flex;
+}
+
+a {
+  padding: min(10px, 5%);
+  white-space: nowrap;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left1 {
+  font-size: 30px;
+}
