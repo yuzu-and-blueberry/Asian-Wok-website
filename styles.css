@@ -1,14 +1,26 @@
+* {
+  margin: 8px;
+  padding: 0;
+  border: 0;
+  font-family: "Zhi Mang Xing", cursive;
+  background: #ab1d21;
+}
+
 body {
   font-family: sans-serif;
 }
 
 ul {
   display: flex;
+  gap: 150px;
+  justify-content: space-evenly;
 }
 
 a {
-  padding: min(10px, 5%);
   white-space: nowrap;
+  text-decoration: none;
+  font-size: 40px;
+  color: #f3eac5;
 }
 
 .header {
@@ -19,4 +31,9 @@ a {
 
 .left1 {
   font-size: 30px;
+}
+.right1 {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
 }
